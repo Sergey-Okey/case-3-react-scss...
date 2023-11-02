@@ -1,0 +1,25 @@
+@import 'variables.scss';
+
+.inf {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	max-width: 720px;
+
+	h2 {
+		font-size: 36px;
+		font-weight: 600;
+		line-height: 140%;
+		color: $Grayscale50;
+	}
+
+	&_affter::after {
+		position: absolute;
+		content: '';
+		top: 150px;
+		right: 0;
+		width: 400px;
+		height: 2px;
+		background: $Backgroundcolor;
+	}
+}
