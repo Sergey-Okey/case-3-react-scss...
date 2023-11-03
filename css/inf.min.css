@@ -1,1 +1,1 @@
-@im
+.inf{position:relative;display:flex;flex-direction:column;max-width:720px}.inf h2{font-size:36px;font-weight:600;line-height:140%;color:#333}.inf p{font-size:18px;font-weight:400;line-height:160%;color:#9c9c9c;padding:45px 0 100px 0}.inf .inf__title_affter{font-size:16px;font-weight:500;line-height:150%;text-transform:uppercase;color:#000;padding-bottom:20px}.inf .inf__title_affter::after{position:absolute;content:"";top:10px;left:110px;width:500px;height:2px;background:#000}
