@@ -1,11 +1,13 @@
 @import '../variables.scss';
 
-.infostr-content {
-	&__title::after {
+.infostr__content {
+	position: relative;
+
+	.infostr__title::after {
 		position: absolute;
 		content: '';
 		top: 10px;
-		left: 110px;
+		left: 160px;
 		width: 500px;
 		height: 2px;
 		background: $Backgroundcolor;
@@ -17,7 +19,6 @@
 		line-height: 150%;
 		text-transform: uppercase;
 		color: $Backgroundcolor;
-		padding-bottom: 20px;
 	}
 
 	h2 {
@@ -25,7 +26,13 @@
 		font-weight: 600;
 		line-height: 140%;
 		color: $Grayscale50;
+		margin-bottom: 50px;
+		margin: 20px 0;
 	}
+}
+
+.infostr {
+	margin-top: 100px;
 }
 
 .infostr__grid {

@@ -1,6 +1,55 @@
 @import '../variables.scss';
 
 .pdf {
-	margin-top: 500px;
+	position: relative;
+	margin-top: 120px;
+	margin-bottom: 150px;
 
+	&__title {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 150%;
+		text-transform: uppercase;
+		color: $Backgroundcolor;
+	}
+
+	h2 {
+		display: flex;
+		font-family: Montserrat;
+		font-size: 36px;
+		font-weight: 600;
+		line-height: 140%;
+		color: $Grayscale50;
+		margin: 20px 0;
+	}
+
+	ul {
+		margin-left: 20px;
+		margin-bottom: 60px;
+		li {
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 160%;
+			color: $Grayscale10;
+		}
+	}
+
+	.button-pdf {
+		background: $PrimaryBlue100;
+		padding: 15px 25px;
+		color: $White;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 150%;
+	}
+
+	&__title::after {
+		position: absolute;
+		content: '';
+		background: $Backgroundcolor;
+		top: 10px;
+		left: 110px;
+		width: 500px;
+		height: 2px;
+	}
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-< lang="en">
+<lang="ru">
 
 	<head>
 		<meta charset="UTF-8">
@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="css/inf.min.css">
 		<link rel="stylesheet" href="css/map.min.css">
 		<link rel="stylesheet" href="css/infostr.min.css">
+		<link rel="stylesheet" href="css/pdf.min.css">
+		<link rel="stylesheet" href="css/footer.min.css">
 		<title>БК "Ясенево" | Главнаяt</title>
 	</head>
 
@@ -125,8 +127,8 @@
 					</section>
 
 					<section class="infostr">
-						<div class="infostr-content">
-							<span class="infostr__title_affter">Инфоструктура</span>
+						<div class="infostr__content">
+							<span class="infostr__title">Инфоструктура</span>
 							<h2>Район с готовой инфраструктурой</h2>
 						</div>
 						<div class="infostr__grid">
@@ -152,18 +154,37 @@
 					</section>
 
 					<section class="pdf">
-						<h2 class="pdf__title">Вся информация о проекте - в презентации</h2>
+						<span class="pdf__title">Подробно</span>
+						<h2>Вся информация о проекте - <br> в презентации</h2>
 						<ul>
 							<li>25 слайдов подробной информации</li>
 							<li>Инфоструктура, благоустройство, располоюение</li>
 							<li>Инженерия, концепция и тд.</li>
 						</ul>
+						<a type="" class="button-pdf" href="">Скачать презентацию</a>
 					</section>
 				</div>
 			</main>
 
 			<footer>
-
+				<div class="container">
+					<div class="footer__content">
+						<span>Подберем лучшее помещение <br> под ваши задачи, основываясь <br> на аналитике бизнес-среды <br> в
+							локации.
+						</span>
+						<form>
+							<label for="name"></label>
+							<input type="text" id="name" name="name" required placeholder="Ваше имя">
+							<label for="phone"></label>
+							<input type="tel" id="phone" name="phone" required placeholder="+7 987 654 32 10">
+							<button type="submit" value="Отправить">Получить консультацию</button>
+						</form>
+					</div>
+					<div class="footer__link">
+						<h2>БК “Ясенево”</h2>
+						<span>+7 (495) 221-40-22</span>
+					</div>
+				</div>
 			</footer>
 		</div>
 		</body>
