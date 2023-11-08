@@ -1,9 +1,11 @@
 @import '../variables.scss';
 
 .pdf {
+	display: flex;
 	position: relative;
 	margin-top: 120px;
 	margin-bottom: 150px;
+
 
 	&__title {
 		font-size: 16px;
@@ -26,6 +28,7 @@
 	ul {
 		margin-left: 20px;
 		margin-bottom: 60px;
+
 		li {
 			font-size: 18px;
 			font-weight: 400;
