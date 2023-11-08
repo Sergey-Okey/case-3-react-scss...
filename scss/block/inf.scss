@@ -21,7 +21,7 @@
 		padding: 45px 0 100px 0;
 	}
 
-	.inf__title_affter {
+	.inf__title-affter {
 		font-size: 16px;
 		font-weight: 500;
 		line-height: 150%;
@@ -30,15 +30,14 @@
 		padding-bottom: 20px;
 	}
 
-	.inf__title_affter::after {
+	.inf__title-affter::after {
 		position: absolute;
 		content: '';
 		top: 10px;
-		left: 110px;
+		left: 160px;
 		width: 500px;
 		height: 2px;
 		background: $Backgroundcolor;
-		margin-left: 30px;
 	}
 }
 
