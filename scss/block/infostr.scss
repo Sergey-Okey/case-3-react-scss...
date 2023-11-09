@@ -101,3 +101,26 @@
 	height: 300px;
 	padding: 20px;
 }
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+	.infostr__grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		grid-gap: 10px;
+		justify-content: center;
+	}
+
+	.page__list {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.infostr__grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+		grid-gap: 10px;
+		justify-content: center;
+	}
+}

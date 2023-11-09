@@ -22,8 +22,9 @@ footer {
 	.footer__link {
 		display: flex;
 		justify-content: space-between;
-		margin-top: 100px;
+		margin-top: 10%;
 		width: 60vw;
+		align-items: center;
 	}
 
 	.footer__content {
@@ -54,4 +55,45 @@ footer {
 		color: $Grayscale50;
 	}
 
+}
+
+@media screen and (max-width: 767px) {
+	footer {
+		display: flex;
+		width: 400px;
+		height: 650px;
+		justify-content: center;
+		padding: 20px 30px;
+	}
+
+	footer .container{
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer__content {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		span {
+			margin-bottom: 80px;
+			font-size: 25px;
+			margin-bottom: 20px;
+		}
+
+	}
+	.footer__link {
+		flex-direction: column;
+		width: 200px;
+		justify-content: center;
+		span {
+			font-size: 18px;
+		}
+
+		h2 {
+			font-size: 20px;
+		}
+	}
 }
