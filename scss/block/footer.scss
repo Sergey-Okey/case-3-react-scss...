@@ -1,6 +1,7 @@
 @import '../variables.scss';
 
 footer {
+	display: flex;
 	height: 480px;
 	background: $PrimaryBlue100;
 	padding: 80px 0;
@@ -19,9 +20,10 @@ footer {
 		color: $White;
 	}
 
-	.footer__link {
+	.footer-link {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 		margin-top: 10%;
 		width: 60vw;
 		align-items: center;
@@ -57,6 +59,17 @@ footer {
 
 }
 
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+	footer {
+		width: 1200px;
+		height: 500px;
+	}
+
+	.footer-link {
+	height: 2px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	footer {
 		display: flex;
@@ -66,7 +79,7 @@ footer {
 		padding: 20px 30px;
 	}
 
-	footer .container{
+	footer .container {
 		justify-content: center;
 		display: flex;
 		flex-direction: column;
@@ -84,10 +97,10 @@ footer {
 		}
 
 	}
-	.footer__link {
-		flex-direction: column;
-		width: 200px;
+
+	.footer-link {
 		justify-content: center;
+
 		span {
 			font-size: 18px;
 		}
